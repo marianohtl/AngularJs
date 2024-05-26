@@ -197,3 +197,95 @@ Caso desejamos importar dentro do nosso componente uma funcionalidade de outro m
 ![alt text](image-20.png)
 
 E ficamos com essa estrutura.
+
+--- 
+
+Como trabalhar com componentes filhos
+
+
+![alt text](image-21.png)
+![alt text](image-22.png)
+![alt text](image-23.png)
+------
+Comando para criar um módulo:
+```
+ng g m 
+```
+Simulando erros declarando um componente em mais de um módulo.
+![alt text](image-24.png)
+
+![alt text](image-25.png)
+
+É uma boa prática re startar a aplicação quando manipulamos módulos.
+-------
+### Como utilizamos componentes de um módulo dentro dos componentes de outro módulo
+-  Módulos que consomem componentes de outros módulos.
+
+
+Primeiro falamos no [exports] que o componente pode ser consumido.
+Importar o módulo centralizador, no módulo que você pretende fazer o uso.
+![alt text](image-26.png)
+
+
+![alt text](image-27.png)
+
+- decorator
+
+Import os caminhos dos componentes colocados no [declarations]
+
+A modularização é de extrema importância para que possamos dar manutenção no projeto.
+
+![alt text](image-28.png)
+
+---
+
+Conexão entre o arquivo ts no html.
+Como chamar as propriedades da classe dentro do html.
+
+- Usaremos a interpolação {{}}
+
+
+Acessar propriedades do componente dado a ela.
+
+![alt text](image-29.png)
+
+Para usarmos funções dentro do arquivo .ts
+![alt text](image-30.png)
+
+Criar uma interpolação e referenciar no html.
+Este processo de fazer a referência das propriedades da classe no html se chama biding.
+
+- Binding sendo feito por funções e por propriedades
+![alt text](image-31.png)
+
+Caso a propriedade não traga um valor na tela, pode ser que a propriedade esteja com um valor nullo ou vazio.
+
+-----
+Ao tentar acessar um valor undefined, recebemos como retorno:
+![alt text](image-32.png)
+
+![alt text](image-33.png)
+
+Com o encadeamento opcional, temos uma validação do suposto objeto para ver se é undefined
+
+![alt text](image-34.png)
+----
+Como driblar as regras de validação do typescript:  
+//@ts-ignore
+![alt text](image-35.png)
+![alt text](image-36.png)
+
+
+Trabalhando com ternários e typescript:
+
+![alt text](image-38.png)
+
+-----
+
+- Como criar e rodar um projeto
+- Estrutura de pastas de um projeto Angular
+- Revi Componentização
+- Criação e Organização de Módulos
+- Referenciação de Arquivos
+- Interpolação
+- Optional Chaning | Encadeamento Opcional
