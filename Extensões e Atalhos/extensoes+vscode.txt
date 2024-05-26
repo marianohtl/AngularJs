@@ -1,0 +1,13 @@
+- Extensões
+    - Angular Language Service
+        Serve para fazer vários autocomplete e mostra erros.
+        Precisamos verificar se no: tsconfig.json, a propriedade strictTemplates = true
+
+    - Angular 17 Snippets - TypeScript, Html, Angular Material, ngRx, RxJS & Flex Layout
+        Traz consigo prefixos para auxiliar no desenvolvimento.
+    - Color Highlight
+        Permite referenciar cores a partir de #
+    - Material Icon Theme
+        Esta extensão serve para mudar as pastinhas do projeto.
+    - Shades of Purple & - Ayu
+        Temas para seu VSCode
