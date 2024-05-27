@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+@import "_variables.scss";
 
 .card {
     max-width: 300px;
-    background-color: #e186ed;
+    background-color: $bgColor;
     border-radius: 30px;
     padding: 30px;
     font-family: 'Major Mono Display', monospace;
